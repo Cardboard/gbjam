@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="10" height="9" tilewidth="16" tileheight="16">
+ <tileset firstgid="1" name="tileset" tilewidth="16" tileheight="16">
+  <image source="tileset.png" width="48" height="32"/>
+ </tileset>
+ <layer name="bg" width="10" height="9">
+  <data encoding="base64" compression="zlib">
+   eJxjZGBgYCQCswIxEwEMU0tIHSuR6og1jxbqiPEvKwNxYQfCAHP0AKM=
+  </data>
+ </layer>
+ <layer name="fg" width="10" height="9">
+  <data encoding="base64" compression="zlib">
+   eJxjYKA+YIZicvUi07jkKQG43EcNs3EBABK0ABk=
+  </data>
+ </layer>
+ <objectgroup name="triggers" width="10" height="9">
+  <object x="0" y="0" width="160" height="16">
+   <properties>
+    <property name="wall" value="b"/>
+   </properties>
+  </object>
+  <object x="0" y="32" width="16" height="80">
+   <properties>
+    <property name="wall" value="tr"/>
+   </properties>
+  </object>
+  <object x="0" y="128" width="160" height="16">
+   <properties>
+    <property name="wall" value="t"/>
+   </properties>
+  </object>
+  <object x="96" y="48" width="16" height="16">
+   <properties>
+    <property name="wall" value="t"/>
+   </properties>
+  </object>
+  <object x="16" y="32" width="32" height="16">
+   <properties>
+    <property name="wall" value="t"/>
+   </properties>
+  </object>
+  <object x="16" y="96" width="32" height="16">
+   <properties>
+    <property name="wall" value="t"/>
+   </properties>
+  </object>
+  <object x="0" y="16" width="16" height="16">
+   <properties>
+    <property name="spawn" value=""/>
+    <property name="wall" value="tr"/>
+   </properties>
+  </object>
+  <object x="144" y="16" width="16" height="16">
+   <properties>
+    <property name="wall" value="l"/>
+   </properties>
+  </object>
+  <object x="128" y="48" width="16" height="16">
+   <properties>
+    <property name="wall" value="t"/>
+   </properties>
+  </object>
+  <object x="112" y="96" width="16" height="16">
+   <properties>
+    <property name="wall" value="t"/>
+   </properties>
+  </object>
+  <object x="144" y="32" width="16" height="16">
+   <properties>
+    <property name="spawn" value=""/>
+    <property name="wall" value="l"/>
+   </properties>
+  </object>
+  <object x="144" y="112" width="16" height="16">
+   <properties>
+    <property name="spawn" value=""/>
+    <property name="wall" value="l"/>
+   </properties>
+  </object>
+  <object x="0" y="112" width="16" height="16">
+   <properties>
+    <property name="spawn" value=""/>
+    <property name="wall" value="r"/>
+   </properties>
+  </object>
+  <object x="144" y="48" width="16" height="64">
+   <properties>
+    <property name="wall" value="l"/>
+   </properties>
+  </object>
+  <object x="64" y="64" width="16" height="16">
+   <properties>
+    <property name="wall" value="t"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>
